@@ -1,0 +1,136 @@
+.cennik{ //napis cennik
+  color:black;
+  font-weight: bold;
+  position: absolute;
+  font-weight: bold;
+  border-bottom: 5px solid  turquoise;
+  width: 250px;
+
+}
+
+
+.cennik1, .cennik2, .cennik3{
+  width: 250px;
+  height: 400px;
+  display: inline-block;
+  float: left;
+  margin-top: 100px;
+  position: relative;
+}
+.cennik2,.cennik3{
+  margin-left: 20px;
+}
+
+.plan1, .zakup1, .serwis1, .dolacz1,
+.zakup2, .serwis2, .gwarancja2, .dolacz2, .plan2,
+.plan3, .zakup3, .serwis3, .gwarancja3, .porada3, .dolacz3{
+  text-align: center;
+  padding: 5px;
+}
+.plan1, .cena2>span, .cena2, .dolacz2, .plan3{
+  color:turquoise;
+}
+.dolacz1, .cennik2, .kolko1_cennik2, .dolacz3{
+  background-color: turquoise;
+}
+.cena, span, .zakup1, .serwis1, .zakup2, .serwis2, .gwarancja2,
+.cena3,.zakup3, .serwis3,.gwarancja3,.porada3{
+  color:grey;
+
+}
+.zakup2, .gwarancja2, .cena1, .cena2, .dolacz2, .cena3{
+background-color: white;
+}
+.serwis1, .serwis2, .serwis3, .porada3{
+  background-color: #DFDFDF;
+}
+.cennik1, .cennik3, .kolko1, .kolko1_cennik3{
+  background-color: #EFEFEF;
+}
+.zakup1, .zakup3, .gwarancja3{
+  background-color: #BFBFBF;
+}
+.dolacz1, .plan2, .dolacz3{
+  color:white;
+}
+.cennik1,.kolko1, .cena1, .cennik3, .kolko1_cennik3, .cena3{
+  border: 1px solid lightgrey;
+}
+
+.plan1, .plan2, .plan3{
+  font-size: 20px;
+  padding-top: 20px;
+}
+.cena1,.cena2,.cena3{
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  position: absolute;
+  left: 62px;
+}
+.cena, span, .cena_2, .cena2>span, .cena_3, .cena3>span{
+  position: absolute;
+}
+.cena,.cena_2,.cena_3{
+  font-size: 30px;
+  font-weight: bold;
+  margin: 0;
+  left: 33px;
+  top: 25px;
+}
+span, .cena2>span, .cena3>span{
+  left:25px;
+  top: 60px;
+  padding-top: 10px;
+}
+
+.zakup1,.zakup2,.zakup3{
+  margin-top: 160px;
+  margin-bottom: 0;
+}
+
+.serwis1,.gwarancja2, .serwis2,.gwarancja3, .serwis3, .porada3{
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.dolacz1,.dolacz2,.dolacz3{
+  width: 150px;
+  border-radius: 10px;
+  position: absolute;
+  left:50px;
+  bottom: 5px;
+}
+
+.kolko1, .kolko1_cennik2,.kolko1_cennik3{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  position: absolute;
+  top:-40px;
+  left: 100px;
+}
+
+.kolko2,.kolko2_cennik2,.kolko2_cennik3{
+  width: 27px;
+  height: 27px;
+  border-radius: 50%;
+  position: absolute;
+  top:-28px;
+  left: 112px;
+}
+
+/*cennik1 i cennik3*/
+.kolko1{
+  border:1px solid lightgrey;
+}
+.kolko2,.kolko2_cennik3{
+  background-color: lightgrey;
+}
+
+/*cennik2*/
+.cennik2{
+  border:1px solid turquoise;
+  }
+.kolko2_cennik2{
+  background-color: white;
+}
